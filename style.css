@@ -14,7 +14,7 @@ body {
 }
 .resume-container {
     width: 794px;
-    height: 1123px;
+    height: auto;
     background: white;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
@@ -27,7 +27,7 @@ body {
     background-image: linear-gradient(to bottom right, #20578156, #98d2c059);
     padding: 10px;
     border-radius: 9px;
-    width: 100%;
+    width: 95%;
 }
 .header-container {
     display: flex;
