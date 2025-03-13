@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'Iran-Yekan';
+    src:url('woff2/IRANYekanXNoEn-Regular.woff2') format('woff');
+    font-weight: normal;
+}
+
+body {
+    font-family: "Iran-Yekan", 'Segoe UI', sans-serif;
+    direction: rtl;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+.resume-container {
+    max-width: 800px;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin: auto;
+    border-radius: 10px;
+}
+.over-header {
+    background-image: linear-gradient(to bottom right, #20578156, #98d2c059);
+    padding: 10px;
+    border-radius: 9px 9px 9px 9px;
+}
+.header-container {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.header-container .profile_image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+.header-text {
+    flex-grow: 1;
+    text-align: right;
+}
+h1 {
+    color: #333;
+    margin: 0;
+}
+h2 {
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+    color: #007bff;
+}
+section {
+    margin-bottom: 20px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+ul li {
+    background: #e7f1ff;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+.language-skill {
+    display: flex;
+    justify-content: space-between;
+    background: #e7f1ff;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+footer {
+    text-align: right;
+    margin-top: 20px;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+}
